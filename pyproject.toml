@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "amazon-reports"
+version = "0.1.0"
+description = ""
+authors = ["Yevhen Syzintsev <yevhen_s@dataforest.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.14"
+requests = "^2.32.3"
+psutil = "^7.0.0"
+python-dotenv = "^1.0.1"
+pyvirtualdisplay = "^3.0"
+fastapi = "^0.115.12"
+uvicorn = "^0.34.0"
+python-multipart = "^0.0.20"
+apscheduler = "^3.11.0"
+aiosqlite = "^0.21.0"
+2captcha-python = "^1.5.1"
+google-cloud-bigquery = "^3.31.0"
+pandas = "^2.2.3"
+pyarrow = "^19.0.1"
+openpyxl = "^3.1.5"
+gspread = "^6.2.1"
+oauth2client = "^4.1.3"
+playwright = "^1.52.0"
+aiogram = "^3.20.0.post0"
+python-amazon-sp-api = "^1.9.36"
+python-amazon-ad-api = "^0.6.4"
+sqlalchemy = "^2.0.41"
+psycopg2-binary = "^2.9.10"
+pillow = "^11.3.0"
+qrcode = "^8.2"
+pyzbar = "^0.1.9"
+pyotp = "^2.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
